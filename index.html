@@ -2,27 +2,24 @@
 <html>
 
 <head>
-    <title>Raffle</title>
+    <title>Word Repeater</title>
     <link rel="stylesheet" href="stylesheet.css" type="text/css" />
 </head>
 
 <body>
-    <h1>Raffle</h1>
+    <h1>Word Repeater</h1>
 
-    <!--text box for the user to type a name-->
-    <input type="text" placeholder="name" id="nameInput" />
+    <!--text box for the user to type a word-->
+    <input type="text" placeholder="word" id="word" />
 
-    <!--button to submit the name-->
+    <!--number box for the user to type the number of times to repeat the word-->
+    <input type="number" min="0" placeholder="times to repeat" id="timesToRepeat" />
+
+    <!--button to submit the word and number-->
     <button id="submitButton">Submit</button>
 
-    <!--button to pick a winner-->
-    <button id="pickWinnerButton">Pick winner</button>
-
-    <!--paragraph where the submitted names will show up-->
-    <p id="namesParagraph">Names:</p>
-
-    <!--paragraph where the winner will show up-->
-    <p id="winnerParagraph"></p>
+    <!--paragraph where the words will show up-->
+    <p id="wordsParagraph">Words:</p>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
