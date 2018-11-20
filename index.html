@@ -2,21 +2,27 @@
 <html>
 
 <head>
-    <title>Mad Libs</title>
+    <title>Raffle</title>
     <link rel="stylesheet" href="stylesheet.css" type="text/css" />
 </head>
 
 <body>
-    <h1>Mad Libs</h1>
+    <h1>Raffle</h1>
 
-    <!--text box for the user to type a noun-->
-    <input type="text" placeholder="noun" id="noun" />
+    <!--text box for the user to type a name-->
+    <input type="text" placeholder="name" id="nameInput" />
 
-    <!--button to show the story-->
-    <button id="showStoryButton">Show story</button>
+    <!--button to submit the name-->
+    <button id="submitButton">Submit</button>
 
-    <!--paragraph where the story will show up-->
-    <p id="storyParagraph"></p>
+    <!--button to pick a winner-->
+    <button id="pickWinnerButton">Pick winner</button>
+
+    <!--paragraph where the submitted names will show up-->
+    <p id="namesParagraph">Names:</p>
+
+    <!--paragraph where the winner will show up-->
+    <p id="winnerParagraph"></p>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
